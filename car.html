@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Выбор автомобиля</title>
+</head>
+<body>
+  <div>
+    <h1>Выбор автомобиля</h1>
+    <form action="" method="post">
+
+      <h2>1. Марка</h2>
+      <label for="car">Выберите марку</label>
+      <select id="car" name="car">
+        <option value="bmw">BMW</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+        <option value="toyota">Toyota</option>
+        <option value="tesla">Tesla</option>
+      </select>
+
+      <h2>2. Модель</h2>
+      <label for="model">Выберите модель</label>
+      <select id="model" name="model">
+        <option value="m5" selected>M5</option>
+        <option value="e-class">E-Class</option>
+        <option value="a6">A6</option>
+        <option value="camry">Camry</option>
+        <option value="model-s">Model S</option>
+      </select>
+
+      <h2>3. Дополнительные опции</h2>
+      <label for="additional-options">Дополнительные опции</label>
+      <select id="additional-options" name="additional-options" multiple size="4">
+        <option value="conditioner" selected>Кондиционер</option>
+        <option value="leather">Кожаный салон</option>
+        <option value="roof" selected>Панорамная крыша</option>
+        <option value="parktronic">Парктроник</option>
+      </select>
+
+      <br><br>
+      <button>Отправить</button>
+    </form>
+  </div>
+</body>
+</html>
